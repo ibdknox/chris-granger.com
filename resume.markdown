@@ -37,15 +37,6 @@ title: ibdknox
         <span>The next big thing?</span>
         2010-Current
     </dt>
-    <dd>After about two years, I left Microsoft to start a company with my good friend <a href="http://nathanhammond.com">Nathan Hammond</a>. Nathan and I have known each other since high school, we both worked at Skookum and MODE together, and have always wanted to strike out on our own. Currently, we're working on several ideas, the first of which, a <a href="http://www.typewire.io">live-blogging service</a>, is now in beta. It's been an insane <a href="http://radian.org/notebook/wp-content/uploads/2008/04/20080404-img_2281.jpg">roller coaster ride</a> so far, but it's undoubtedly one of the best learning experiences I could ever have.</dd>
-    <!--
-    <dt>
-        <span>Along the way, I learned.</span>
-        1987-Current
-    </dt>
-    <dd>
-        Throughout all of this, I've developed a <a href="http://www.amazon.com/Linchpin-Are-Indispensable-Seth-Godin/dp/1591843162" target="_blank">unique skillset</a>. My eclectic background and general passion for solving problems and learning new things means I approach situations from angles most people haven't even dreamed of yet. I admit, I'm different (how many German majors do you know at Microsoft?), but I promise it's for the best. 
-    </dd>
-    -->
+    <dd>After about two years, I left Microsoft to start a company with my good friend <a href="http://nathanhammond.com">Nathan Hammond</a>. Nathan and I have known each other since high school, we both worked at Skookum and MODE together, and had always wanted to strike out on our own. Together, we built a <a href="http://www.typewire.io">live-blogging service</a> called Typewire. It was an insane <a href="http://radian.org/notebook/wp-content/uploads/2008/04/20080404-img_2281.jpg">roller coaster ride</a> and undoubtedly one of the best learning experiences I've had, but in the end, it didn't work out. So thereafter, I joined up with the guys at <a href="https://www.readyforzero.com">ReadyForZero</a> to help combat the growing debt epidemic. As their first engineering hire, I've helped rewrite an old Django site into a new one built entirely on <a href="http://webnoir.org">Noir</a> and <a href="http://clojure.org">Clojure</a>.</dd>
 </dl>
 </div>
