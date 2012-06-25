@@ -1,10 +1,11 @@
 ---
 layout: default
 title: ibdknox
+meta: Chris Granger's resume
 ---
 <div id="resume">
-<h1>Haec vita mea est.</h1>
-<h2>(This is my life)</h2>
+<h2>Haec vita mea est.</h2>
+<h3>(This is my life)</h3>
 <dl>
     <dt>
         <span>I went to school,</span>
@@ -37,6 +38,6 @@ title: ibdknox
         <span>The next big thing?</span>
         2010-Current
     </dt>
-    <dd>After about two years, I left Microsoft to start a company with my good friend <a href="http://nathanhammond.com">Nathan Hammond</a>. Nathan and I have known each other since high school, we both worked at Skookum and MODE together, and had always wanted to strike out on our own. Together, we built a <a href="http://www.typewire.io">live-blogging service</a> called Typewire. It was an insane <a href="http://radian.org/notebook/wp-content/uploads/2008/04/20080404-img_2281.jpg">roller coaster ride</a> and undoubtedly one of the best learning experiences I've had, but in the end, it didn't work out. So thereafter, I joined up with the guys at <a href="https://www.readyforzero.com">ReadyForZero</a> to help combat the growing debt epidemic. As their first engineering hire, I've helped rewrite an old Django site into a new one built entirely on <a href="http://webnoir.org">Noir</a> and <a href="http://clojure.org">Clojure</a>.</dd>
+    <dd>After about two years, I left Microsoft to start a company with my good friend <a href="http://nathanhammond.com">Nathan Hammond</a>. Nathan and I have known each other since high school, we both worked at Skookum and MODE together, and had always wanted to strike out on our own. Together, we built a <a href="http://www.typewire.io">live-blogging service</a> called Typewire. It was an insane <a href="http://radian.org/notebook/wp-content/uploads/2008/04/20080404-img_2281.jpg">roller coaster ride</a> and undoubtedly one of the best learning experiences I've had, but in the end, it didn't work out. So thereafter, I joined up with the guys at <a href="https://www.readyforzero.com">ReadyForZero</a> to help combat the growing debt epidemic. As their first engineering hire, I helped rewrite an old Django site into a new one built entirely on <a href="http://webnoir.org">Noir</a> and <a href="http://clojure.org">Clojure</a>. But these days I'm back in the ether of starting my own company - where it'll lead, no one knows.</dd>
 </dl>
 </div>

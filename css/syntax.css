@@ -61,14 +61,14 @@
 
 
 
-.highlight .ss { color: #4a4a4a !important; } /* CHRIS: symbols Literal.String.Symbol */
-.highlight .c1 { color:#777 !important; font-style:normal; } /* Comment.Single */
+.highlight .ss { color: #707070 !important; } /* CHRIS: symbols Literal.String.Symbol */
+.highlight .c1 { color:#8c8c8c !important; font-style:normal; } /* Comment.Single */
 .highlight .mi { color: #858; } /* CHRIS: Literal.Number.Integer */
 .highlight .s { color: #858 !important; } /* CHRIS: Literal.String */
-.highlight .nb { color:#4a4a4a !important } /* CHRIS: clojure funcs */
-.highlight .nf { color: #4a4a4a !important; font-weight:normal !important; } /* CHRIS: function names */
-.highlight .nv { color: #378 !important; } /* CHRIS: clojure vars */
-.highlight .o { color:#378 !important; } /* CHRIS: . and # */
-.highlight .p { color:#4a4a4a; } /* paren */
-.highlight .k { color:#4a4a4a !important; } /* CHRIS: clojure special forms */
+.highlight .nb { color:#707070 !important } /* CHRIS: clojure funcs */
+.highlight .nf { color: #707070 !important; font-weight:normal !important; } /* CHRIS: function names */
+.highlight .nv { color: #489 !important; } /* CHRIS: clojure vars */
+.highlight .o { color:#489 !important; } /* CHRIS: . and # */
+.highlight .p { color:#707070; } /* paren */
+.highlight .k { color:#707070 !important; } /* CHRIS: clojure special forms */
 

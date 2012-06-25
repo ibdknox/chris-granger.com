@@ -1,10 +1,11 @@
 ---
 layout: default
 title: "korma"
+meta: A domain specific language for SQL written in Clojure
 tags: []
 ---
 
-#korma
+##korma
 
 [Korma] is a domain specific language for Clojure that takes the pain out of working with your favorite RDBMS. Here's a basic example:
 

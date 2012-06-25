@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "Cljs"
+meta: All the ClojureScript libraries you could ever want.
 tags: []
 ---
 
-#clojurescript
+##clojurescript
 
 My first experiences with ClojureScript culminated in [Pinot] a library the provided the basic building blocks for creating websites in CLJS. It was, however, a monolithic conglomeration of all the random things I built along the way. To cure this, I broke Pinot apart into the following libraries:
 
-#[jayq]
+##[jayq]
 
 Pronounced "jake" is a jquery wrapper that makes jquery objects work just like normal clojure collections. 
 
@@ -23,7 +24,7 @@ Pronounced "jake" is a jquery wrapper that makes jquery objects work just like n
   (inner "Loading!"))
 {% endhighlight %}
 
-#[waltz] 
+##[waltz] 
 
 A state management library that lets you build very complex interactions without ending up in the tar pit.
 
@@ -51,7 +52,7 @@ A state management library that lets you build very complex interactions without
 (transition me :update)
 {% endhighlight %}
 
-#[fetch]
+##[fetch]
 
 A library to make client/server interaction painless. Includes the pinot.remotes stuff as well as the start of a lazy-store implementation that works like a map where the values are fetched from the server lazily.
 
@@ -72,7 +73,7 @@ A library to make client/server interaction painless. Includes the pinot.remotes
     (js/alert (str "a: " a " b: " b)))
 {% endhighlight %}
 
-#[crate]
+##[crate]
 
 An implementation of hiccup over dom objects.
 
@@ -85,7 +86,7 @@ An implementation of hiccup over dom objects.
   [:a.button {:href "#" :data-action action :data-param param} label])
 {% endhighlight %}
 
-#[monet]
+##[monet]
 
 A visual library for ClojureScript to make it easier (and performant) to work with canvas/visuals.
 

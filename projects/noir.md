@@ -1,10 +1,11 @@
 ---
 layout: default
 title: "Noir"
+meta: The Clojure web framework.
 tags: []
 ---
 
-#noir
+##noir
 
 [Noir](http://webnoir.org) is a micro-framework that allows you to rapidly develop websites in Clojure. It looks like this:
 
