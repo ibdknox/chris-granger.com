@@ -4,6 +4,8 @@ title: "The future is specific"
 tags: []
 ---
 
+**You can now try Light Table out via the [Light Table Playground][ltp]!**
+
 I'm going to make a bold claim: The future of tools isn't in a better Eclipse or Visual Studio, it's in easily created domain specific experiences.
 
 If we look at the trends in programminging languages over the past decade, we've seen a resurgence of metaprogramming and DSLs. We as an industry are starting to rediscover the power of being able to write language we use to build our software. It doesn't seem like much of a stretch to apply these notions to our tools. As a matter of fact, wouldn't it stand to reason that if domain specific languages increase our ability to write and understand our code that domain specific tools would as well?
@@ -56,3 +58,4 @@ It occured to me the other day that what we're talking about is something like a
 [korma]:http://sqlkorma.com
 [flask]:http://flask.pocoo.org/
 [lt]: http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept/
+[ltp]: http://app.kododwa.com/playground

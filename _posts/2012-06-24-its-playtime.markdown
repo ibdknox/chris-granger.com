@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "It's playtime"
+title: "It's playtime - Light Table Playground released"
 tags: []
 ---
 
@@ -9,7 +9,7 @@ I'm happy to announce the official release of the [Light Table Playground][pg]! 
 ![light table playground](/images/lightable/v0.0.6.png)
 
 ###What is the playground?
-The playground is a chance for you to follow along as we test out new things for [Light Table][lt]. In return, it helps us collect metrics on how people are using our experiments as well as gives us an opportunity to see how certain concepts fair in the real world. All in all, it keeps us connected to you guys and you guys connected to us.
+The playground is a chance for you to follow along as we test out new things for [Light Table][lt]. In return, it helps us collect metrics on how people are using our experiments as well as gives us an opportunity to see how certain concepts fare in the real world. All in all, it keeps us connected to you guys and you guys connected to us.
 
 ![light table instarepl](/images/lightable/v0.0.6-close.png)
 

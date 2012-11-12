@@ -4,7 +4,9 @@ title: "Light Table - a new IDE concept"
 tags: []
 ---
 
-**Light Table is now on [kickstarter!][ks]**
+**You can now try Light Table out via the [Light Table Playground][ltp]!**
+
+**Light Table's [kickstarter][ks] has wrapped up!**
 
 Despite the dramatic shift toward simplification in software interfaces, the world of development tools continues to shrink our workspace with feature after feature in every release. Even with all of these things at our disposal, we're stuck in a world of files and forced organization - why are we still looking all over the place for the things we need when we're coding? Why is everything just static text?
 
@@ -104,3 +106,4 @@ I've always been fascinated with development tools - creating the things used to
 [video]: http://youtube.com/
 [discovered]: /2012/02/26/connecting-to-your-creation/
 [ks]: http://www.kickstarter.com/projects/306316578/light-table
+[ltp]: http://app.kodowa.com/playground
