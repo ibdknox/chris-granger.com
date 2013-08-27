@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Musings and such.
-meta: The musings, ramblings, and projects of a man enamored with design, Clojure, and building useful things.
+title: Light Table docs
+meta: Documentation for Kodowa's Light Table development environment
 ---
 
-<div id="post">
-    <span class="date">{{ site.posts.first.date | date_to_string }}</span>
-    <h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>
-    {{ site.posts.first.content }}
+{% for post in site.posts %}
+<div class="post" id="{{post.link}}">
+    <h2>{{ post.title }}</h2>
+    {{ post.content }}
 </div>
+{% endfor %}
