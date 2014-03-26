@@ -1,0 +1,6 @@
+<div class="highlight"><pre><code class="clojure"><span class="p">(</span><span class="nf">behavior*</span> <span class="err">:</span><span class="ss">:read-only</span>
+           <span class="ss">:triggers</span> <span class="o">#</span><span class="p">{</span><span class="ss">:init</span><span class="p">}</span>
+           <span class="ss">:reaction</span> <span class="p">(</span><span class="k">fn </span><span class="p">[</span><span class="nv">this</span><span class="p">]</span>
+                       <span class="p">(</span><span class="nf">set-options</span> <span class="nv">this</span> <span class="p">{</span><span class="ss">:readOnly</span> <span class="s">&quot;nocursor&quot;</span><span class="p">})))</span>
+</code></pre>
+</div>

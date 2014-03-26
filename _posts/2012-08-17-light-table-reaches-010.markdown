@@ -51,6 +51,6 @@ If you run into obvious bugs or issues, you can [log them on Github][ltgh].
 
 As YC is now starting to wrap up (we'll be talking about that soon), our plans are solidifying a bit and we should be making some big announcements in the next month or so. Stay tuned and hold onto your seats - it's going to be a wild ride.
 
-[ltp]: http://app.kodowa.com/playground
+[ltp]: http://www.lighttable.com
 [ltgh]: https://github.com/Kodowa/Light-Table-Playground/issues
 [lt]: http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept/

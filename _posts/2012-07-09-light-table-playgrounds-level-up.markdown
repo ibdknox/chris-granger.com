@@ -48,7 +48,7 @@ So there you have it, go run `./light table` to upgrade, or go [download the pla
 
 [ll]: http://app.kodowa.com/playground/lein-light
 [lein]: http://leiningen.org
-[ltp]: http://app.kodowa.com/playground
+[ltp]: http://www.lighttable.com
 [noir]: http://webnoir.org
 [cascalog]: https://github.com/nathanmarz/cascalog/
 [overtone]: http://overtone.github.com/

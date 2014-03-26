@@ -45,7 +45,7 @@ People like [Alan Kay][ak] set the ground work for an environment like Light Tab
 [spec]: http://www.chris-granger.com/2012/05/21/the-future-is-specific/
 [abst]: http://www.chris-granger.com/2012/09/25/light-table---embracing-abstraction/
 [lt]: http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept/
-[kodowa]: http://kodowa.com
+[kodowa]: http://www.lighttable.com
 [squeak]: http://en.wikipedia.org/wiki/Squeak
 [repl]: http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop
 [smalltalk]: http://en.wikipedia.org/wiki/Smalltalk

@@ -23,7 +23,7 @@ The playground is a very stripped down version of [Light Table][lt], but it help
 
 There are very exciting things to come and now that we've hit this milestone, we can do a lot more than just tell you about what we're thinking - we can begin to show you.
 
-[pg]: http://app.kodowa.com/playground
+[pg]: http://www.lighttable.com
 [4c]: http://4clojure.com
 [pe]: http://projecteuler.net/
 [lt]: http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept/

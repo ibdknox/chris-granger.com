@@ -58,4 +58,4 @@ It occured to me the other day that what we're talking about is something like a
 [korma]:http://sqlkorma.com
 [flask]:http://flask.pocoo.org/
 [lt]: http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept/
-[ltp]: http://app.kododwa.com/playground
+[ltp]: http://www.lighttable.com

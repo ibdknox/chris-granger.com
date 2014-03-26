@@ -106,4 +106,4 @@ I've always been fascinated with development tools - creating the things used to
 [video]: http://youtube.com/
 [discovered]: /2012/02/26/connecting-to-your-creation/
 [ks]: http://www.kickstarter.com/projects/306316578/light-table
-[ltp]: http://app.kodowa.com/playground
+[ltp]: http://www.lighttable.com

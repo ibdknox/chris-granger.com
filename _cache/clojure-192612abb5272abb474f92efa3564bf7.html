@@ -1,0 +1,6 @@
+<div class="highlight"><pre><code class="clojure"><span class="p">(</span><span class="kd">defn </span><span class="nv">renderer</span> <span class="p">[</span><span class="nv">renderables</span><span class="p">]</span> <span class="c1">;; define a function renderer that takes all renderables</span>
+  <span class="p">(</span><span class="nb">doseq </span><span class="p">[</span><span class="nv">e</span> <span class="nv">renderables</span><span class="p">]</span> <span class="c1">;; for each renderable entity</span>
+        <span class="p">(</span><span class="k">let </span><span class="p">[</span><span class="nv">rend</span> <span class="p">(</span><span class="nf">as</span> <span class="nv">e</span> <span class="ss">:renderable</span><span class="p">)]</span> <span class="c1">;; get the entity&#39;s renderable component</span>
+          <span class="p">((</span><span class="nf">rend</span> <span class="ss">:fn</span><span class="p">)</span> <span class="nv">e</span><span class="p">))))</span> <span class="c1">;; call the stored render function with the entity</span>
+</code></pre>
+</div>

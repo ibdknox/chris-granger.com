@@ -1,0 +1,8 @@
+<div class="highlight"><pre><code class="clojure"><span class="p">(</span><span class="nf">object/object*</span> <span class="err">:</span><span class="ss">:notifier</span>
+                <span class="ss">:triggers</span> <span class="p">[</span><span class="ss">:notifo.click</span> <span class="ss">:notifo.timeout</span><span class="p">]</span>
+                <span class="ss">:behaviors</span> <span class="p">[</span><span class="err">:</span><span class="ss">:remove-on-timeout</span> <span class="err">:</span><span class="ss">:on-click-rem!</span><span class="p">]</span>
+                <span class="ss">:init</span> <span class="p">(</span><span class="k">fn </span><span class="p">[</span><span class="nv">obj</span><span class="p">]</span>
+                        <span class="p">[</span><span class="ss">:ul#notifos</span>
+                         <span class="p">(</span><span class="nf">map-bound</span> <span class="p">(</span><span class="nb">partial </span><span class="nv">notifo</span> <span class="nv">obj</span><span class="p">)</span> <span class="nv">notifos</span><span class="p">)]))</span>
+</code></pre>
+</div>
