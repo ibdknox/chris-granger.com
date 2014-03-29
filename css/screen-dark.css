@@ -1,8 +1,8 @@
 html {height:100%; }
-body { background:#1d1e1c; height:100%; color:#ddd; font-family: "Open sans", sans-serif; font-size:11pt;}
-a { text-decoration:none; color:#c9cecc;}
-strong {font-weight:bold !important; color:#7aF !important; }
-strong a { color:#7aF !important; }
+body { background:#f7f7f7; height:100%; color:#444; font-family: "Open sans", sans-serif; font-size:11pt;}
+a { text-decoration:none; color:#333;}
+strong {font-weight:bold !important; color:#555 !important; }
+strong a { color:#555 !important; }
 em { font-style:italic; }
 
 iframe { margin-bottom:20px; }
@@ -18,34 +18,34 @@ iframe { margin-bottom:20px; }
 
 #copyright { display:none; z-index: -1; position:fixed; color: #9e9e9e; bottom:50px; right:50px;}
 
-#contentwrapper { overflow:hidden; min-width:400px; margin-left:250px; min-height:100%; background:#1d1e1c; box-shadow:none; }
-#content { max-width:600px; padding:50px; padding-top:35px; font-size:14px; height:100%; }
+#contentwrapper { overflow:hidden; min-width:400px; margin-left:250px; min-height:100%; background:none; box-shadow:none; }
+#content { max-width:600px; padding:50px; padding-top:35px; font-size:11pt; height:100%; }
 #content h2 { font-size:32px;  margin-bottom:20px; }
-#content h2 a { color:#fff; color:#7af; }
-#content h3 { font-size: 24px;  }
+#content h2 a { color:#fff; color:#222; }
+#content h3 { font-size: 24px; color:#666;  }
 #content ul {list-style:inside; }
-#content img { display:block; max-width:600px; border-radius:5px; border:none; border:1px solid #3d3e3c;}
+#content img { display:block; margin:0 auto; max-width:600px; border-radius:5px; border:none; border:1px solid #ccc; box-shadow:0 0 0px #aaa;}
 #content p {margin: 20px 0; }
 #content p a { text-decoration:underline; }
-#content pre { font-family: Courier, monospace; font-size:10pt; background:#3d3e3c; border-radius:5px; padding:15px 20px; overflow:auto;}
-#content p code { font-family: Courier, monospace; font-size:10pt; background:#3d3e3c; border-radius:2px; padding:2px; }
+#content pre { font-family: Courier, monospace; font-size:10pt; background:white; border:1px solid #eee; border-radius:5px; padding:15px 20px; overflow:auto;}
+#content p code { font-family: Courier, monospace; font-size:10pt; background:#e0e0e0; color:#333; border-radius:2px; padding:2px 8px; }
 #content blockquote p { font-size:11pt; background:#d8d8d8; border-radius:5px; padding:10px; box-shadow: 0 0 8px #aaa; }
 
 #content div + h2 { margin-top: 25px; }
 
 #related {margin-top:80px; }
 
-.date { color:#bbb; float:right; margin-top:15px; }
+.date { color:#888; float:right; margin-top:15px; }
 
 .archive { list-style:none !important; margin-top:10px;}
 .archive li { float:left; margin-bottom:5px; width:100%;}
 .archive a { min-width:200px; float:left; }
-.archive span { color:#909090; float:right; }
+.archive span { color:#888; float:right; }
 
 .posts { list-style:none !important; margin-top:5px;}
 .posts li { margin-bottom:5px; }
-.posts span { color: #909090; }
-.posts a { color: #bbb; text-decoration:none !important; }
+.posts span { color: #888; }
+.posts a { color: #444; text-decoration:none !important; }
 
 .lighttable ul a { text-decoration:underline; }
 .lighttable h4 a { padding: 15px; background: #3d3e3c; display:inline-block; font-size:18px; float:right;}
@@ -57,7 +57,7 @@ iframe { margin-bottom:20px; }
 #resume dt { font-size:18pt; color:#909090; margin-bottom:10px;}
 #resume dt span { color:#808080; }
 #resume dd { margin-bottom: 20px; }
-#resume a { color:#caf; font-weight:normal; }
+#resume a { color:#3f3f3f; font-weight:bold; }
 
 .others { list-style:none !important; }
 
