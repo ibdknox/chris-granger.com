@@ -79,7 +79,7 @@ cards[0][12]
 
 Ah yes, when playing cards, I love it when I get the `cards[0][12]`. We're writing a card game and cards have real representations, so why can't we just see this instead?
 
-![card](http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/01_of_spades_A.svg/208px-01_of_spades_A.svg.png)
+<img width="100" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/01_of_spades_A.svg/208px-01_of_spades_A.svg.png" />
 
 Translation is hard and using symbols is error-prone, especially coupled with operations on top of other symbols. This indirectness, this inability to represent things usefully and directly manipulate them, is killing us. A vast number of programming errors are simple translation problems. We had the solution in our head, but in trying to turn it into code we just forgot something or translated it very slightly wrong. We have to get away from that translation. When we do UI, we should do it in a visual editor. When we do math, we should have something like Mathematica at our fingertips. We should express domains in the ways they most naturally present themselves in, not with our own homegrown obfuscations.
 
