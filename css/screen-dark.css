@@ -1,5 +1,5 @@
 html {height:100%; }
-body { background:#f7f7f7; font-size:11pt; height:100%; color:#444; font-family: "Open sans", sans-serif; font-size:11pt;}
+body { background:white; font-size:11pt; height:100%; color:#444; font-family: "Open sans", sans-serif; font-size:11pt;}
 a { text-decoration:none; color:#333;}
 strong {font-weight:bold !important; color:#555 !important; }
 strong a { color:#555 !important; }
@@ -27,7 +27,7 @@ iframe { margin-bottom:20px; }
 #content img { display:block; margin:0 auto; max-width:600px; border-radius:5px; border:none; border:1px solid #ccc; box-shadow:0 0 0px #aaa;}
 #content p {margin: 20px 0; }
 #content p a { text-decoration:underline; }
-#content pre { font-family: Courier, monospace; font-size:10pt; background:white; border:1px solid #eee; border-radius:5px; padding:15px 20px; overflow:auto;}
+#content pre { font-family: Courier, monospace; font-size:10pt; border-radius:5px; padding:15px 20px; overflow:auto;}
 #content p code { font-family: Courier, monospace; font-size:10pt; background:#e0e0e0; color:#333; border-radius:2px; padding:2px 8px; }
 #content blockquote p { font-size:11pt; background:#d8d8d8; border-radius:5px; padding:10px; box-shadow: 0 0 8px #aaa; }
 
