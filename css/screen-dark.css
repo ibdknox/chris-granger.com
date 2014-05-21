@@ -9,7 +9,7 @@ iframe { margin-bottom:20px; }
 
 #wrapper {height:100%; }
 
-#nav { width:200px; float:left; display:inline; padding-top:50px; padding-left:50px; position:fixed; height:100%; z-index:0; top:0; left:0px; }
+#nav { width:200px; float:left; display:inline; padding-top:50px; padding-left:50px; position:fixed; height:100%; min-height:370px; z-index:0; top:0; left:0px; }
 #nav ul { list-style:none; margin-top:50px; }
 #nav li ul { margin-top:2px; margin-bottom:2px; margin-left: 20px; display:none; }
 #nav li ul a { color: #666; }
@@ -68,7 +68,7 @@ and (max-width : 1024px) {
   #wrapper { }
   #nav h1 { display:inline-block; float:left; }
   #nav-wrapper { padding:0 15px;}
-  #nav { margin-bottom:20px; min-width:295px; position:static; display:block; width:100%; max-width:600px; padding-top:10px; padding-left:0; box-sizing:border-box; -moz-box-sizing:border-box; height:auto; border-bottom:1px solid #ddd; }
+  #nav { margin-bottom:20px; min-width:295px; position:static; display:block; width:100%; max-width:600px; padding-top:10px; padding-left:0; box-sizing:border-box; -moz-box-sizing:border-box; height:auto; min-height:0px; border-bottom:1px solid #ddd; }
   #nav ul { margin:0; margin-bottom:10px; display:inline-block; float:right; }
   #nav ul li { display:inline-block; margin-left:10px;}
   #nav ul li:nth-child(1) { display:none; }
