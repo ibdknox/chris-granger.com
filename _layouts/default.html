@@ -14,46 +14,45 @@
         <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection" />
         <!-- Homepage CSS -->
         <link rel="stylesheet" href="/css/screen-dark.css" type="text/css" media="screen, projection" />
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700|Merriweather:400,300,300italic,700,700italic,400italic' rel='stylesheet' type='text/css'>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"> </script>
     </head>
     <body>
 
         <div id="wrapper">
-            <div id="nav-wrapper">
-                <div id="nav">
-                    <h1><a href="/">chris granger</a></h1>
-                    <ul>
-                        <li><a href="http://www.lighttable.com/">Light Table</a></li>
-                        <li>
-                            <a href="/projects" class="trigger">projects</a>
-                            <ul class="projects">
-                                <li><a href="/projects/noir">noir</a></li>
-                                <li><a href="/projects/korma">korma</a></li>
-                                <li><a href="/projects/cljs">cljs</a></li>
-                                <li><a href="/projects/iwbyp">iwbyp</a></li>
-                                <li><a href="/projects/others">others</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/archive">archive</a></li>
-                        <li><a href="/resume">about</a></li>
-                    </ul>
-                    <ul class="info">
-                        <li>github: <a href="http://github.com/ibdknox">ibdknox</a></li>
-                        <li>twitter: <a href="http://twitter.com/ibdknox">ibdknox</a></li>
-                        <li>ibdknox[at]gmail.com</li>
-                    </ul>
-                </div>
+            <div id="nav">
+                <h1><a href="/">chris granger</a></h1>
+                <ul>
+                    <li><a href="/archive">posts</a></li>
+                    <li><a href="/resume">about</a></li>
+                </ul>
+
             </div>
 
-            <div id="contentwrapper">
-                <div id="content" class="{{ page.class }}">
-                    {{ content }}
-                </div>
+            <div id="content" class="{{ page.class }}">
+                {{ content }}
             </div>
+            <div id="info">
+<!--                 {% if site.related_posts.first %}
+<div id="related">
+  <h3>Read more:</h3>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li><a href="{{ post.url }}">
 
-            <p id="copyright">© 2012 Chris Granger</p>
+          {{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %} -->
+                <ul>
+                    <li>github: <a href="http://github.com/ibdknox">ibdknox</a></li>
+                    <li>twitter: <a href="http://twitter.com/ibdknox">ibdknox</a></li>
+                    <li>ibdknox[at]gmail.com</li>
+                </ul>
+                <p id="copyright">© 2015 Chris Granger</p>
+            </div>
         </div>
 
         <!-- Google Analytics -->

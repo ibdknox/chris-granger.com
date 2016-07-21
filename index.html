@@ -5,7 +5,9 @@ meta: The musings, ramblings, and projects of a man enamored with design, Clojur
 ---
 
 <div id="post">
-    <span class="date">{{ site.posts.first.date | date_to_string }}</span>
-    <h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>
+    <header>
+        <h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>
+    </header>
     {{ site.posts.first.content }}
+    <div class="date">~ {{ site.posts.first.date | date: '%B %d, %Y' }}</div>
 </div>

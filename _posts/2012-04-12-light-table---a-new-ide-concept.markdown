@@ -14,7 +14,7 @@ Despite the dramatic shift toward simplification in software interfaces, the wor
 
 We **can** do better, and to that end, let me introduce you to
 
-<iframe src="http://player.vimeo.com/video/40281991?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="video"><iframe src="http://player.vimeo.com/video/40281991?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 Light Table is based on a very simple idea: we need a real work surface to code on, not just an editor and a project explorer. We need to be able to move things around, keep clutter down, and bring information to the foreground in the places we need it most. Here's what the default mode looks like:
 

@@ -4,7 +4,7 @@ title: "Toward a better programming"
 tags: []
 ---
 
-_this post is based on my talk, ["Finding a way out"](http://www.infoq.com/presentations/reimagining-software?utm_source=infoq&utm_medium=QCon_EarlyAccessVideos&utm_campaign=StrangeLoop2013), from Strange Loop 2013_
+<p class="center"><em>this post is based on my talk, <a href="http://www.infoq.com/presentations/reimagining-software?utm_source=infoq&utm_medium=QCon_EarlyAccessVideos&utm_campaign=StrangeLoop2013">"Finding a way out"</a>, from Strange Loop 2013</em></p>
 
 When I built the original prototype of [Light Table][lt] I didn't have any grand purpose or goal in mind. I simply had some ideas on how programming could be better and I wanted to see how hard they would be to build. Until fairly recently, it never dawned on me that I've actually spent the past decade trying out ideas on how programming could be better, from web frameworks, to Visual Studio, to Light Table and its future. And it wasn't until I had that realization that I also came to the conclusion that I'd been going about this all wrong. As a matter of fact, I made a classic rookie mistake: I set out to answer a question I didn't understand.
 

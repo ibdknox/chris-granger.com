@@ -6,7 +6,7 @@ tags: []
 
 For the [Node Knockout][nko] last month, we wanted to build a game in [Light Table][lt] using ClojureScript. What we ultimately came up with was a fun little racing platformer called [ChromaShift][cs]. All the [code and assets][csgh] were created during the 48 hours of the competition and in the end [we did pretty well][csnko], coming in 7th [overall][nko-overall]. Here's a video of the game in action:
 
-<iframe width="600" height="338" src="http://www.youtube.com/embed/v09DnU4vQ74" frameborder="0" allowfullscreen></iframe>
+<div class="video"><iframe width="600" height="338" src="http://www.youtube.com/embed/v09DnU4vQ74" frameborder="0" allowfullscreen></iframe></div>
 
 ###How do you build a game in ClojureScript?
 
@@ -14,7 +14,7 @@ I've built a couple games before in JavaScript that relied on the more standard 
 
 ###The traditional way of thinking
 
-The traditional way of thinking about games is fairly intuitive. You represent objects in the game as objects in code. So if you have a player, you'd create a player class that contains all the player's attributes; things like position, health, ammo, etc. Then you create an `update()` method that calls other methods like `shoot()` or `jump()` that read and change those attributes. To keep things DRY, you'll probably end up creating some base classes because entities in a game often have many different variations with small differences. 
+The traditional way of thinking about games is fairly intuitive. You represent objects in the game as objects in code. So if you have a player, you'd create a player class that contains all the player's attributes; things like position, health, ammo, etc. Then you create an `update()` method that calls other methods like `shoot()` or `jump()` that read and change those attributes. To keep things DRY, you'll probably end up creating some base classes because entities in a game often have many different variations with small differences.
 
 ###The problem
 
@@ -65,7 +65,7 @@ Here's a [real level from ChromaShift][level], showing you a more complex exampl
 Since objects are just groupings of components, at the core of the CES engine sits a datastructure that maps these entity IDs to the group of components that make them up. Fortunately, that's very easy to represent as a hash-map or dictionary in most languages. In ClojureScript you just use a map of integer ID to a vector of components:
 
 ```clojure
-{1 [{:name "position" :x 10 :y 10 :a 0} 
+{1 [{:name "position" :x 10 :y 10 :a 0}
     {:name "health" :lives 3 :health 5}
     ...]
 ```
@@ -91,7 +91,7 @@ The component just takes in a function that will be called when we render the ob
         ;; get the entity's renderable component
         (let [rend (as e :renderable)]
           ;; call the stored render function with the entity
-          ((rend :fn) e)))) 
+          ((rend :fn) e))))
 ```
 
 So now that we have a `renderer` function, we just need to call it in every tick of our game loop with all the entities that have the renderable component:

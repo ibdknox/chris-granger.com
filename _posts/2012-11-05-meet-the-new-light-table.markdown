@@ -16,7 +16,7 @@ But the changes aren't just all under the hood. What we have here is far more us
 
 Well, let's see it in action.
 
-<iframe width="600" height="338" src="http://www.youtube.com/embed/PsVJJp1XnzQ?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="video"><iframe width="600" height="338" src="http://www.youtube.com/embed/PsVJJp1XnzQ?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 ###A real app
 

@@ -8,4 +8,4 @@ Yesterday I gave a talk at Strange Loop about Light Table, in which I stressed t
 
 During my talk I showed some of the latest stuff in Light Table, namely the parts that embrace this notion that the fundamental unit of our work is abstraction. One of the things we want to enable is being able to manipulate the environment directly and quickly in meaningful ways. While not quite ready to release yet, I wanted to show what this looks like and give you a taste of what you can really do when you have complete freedom in shaping your tools. So, here's a video of what I showed:
 
-<iframe width="600" height="338" src="http://www.youtube.com/embed/3EfwGsy0hAs?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="video"><iframe width="600" height="338" src="http://www.youtube.com/embed/3EfwGsy0hAs?rel=0" frameborder="0" allowfullscreen></iframe></div>

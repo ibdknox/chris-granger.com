@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: post
 title: "Cancer and Startups"
 tags: []
 ---

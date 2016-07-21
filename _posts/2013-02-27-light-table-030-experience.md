@@ -32,7 +32,7 @@ We also did this for the instarepl so that you don't lose all that screen real e
 
 You can now eval JavaScript in a browser (or directly in LT)! Just open a JS file and press Cmd/Ctrl-Enter while your cursor is on a block or an expression and you'll see the result inline. Connecting to a browser is just a matter of including a script tag (use the "Connect to a browser" command to get it) in your page. Here's a little video of the process:
 
-<iframe width="600" height="450" src="http://www.youtube.com/embed/Zg6Nja8C9rU?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="video"><iframe width="600" height="450" src="http://www.youtube.com/embed/Zg6Nja8C9rU?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 You can also "eval" css into the browser, allowing you write and test your CSS without having to refresh. The same things works with ClojureScript too, though you need to have some things already on the page for it to work. Some tutorial content for that is forthcoming.
 
@@ -44,7 +44,7 @@ Having the notion of a collection of files that you're working over is nice, esp
 
 ###Quick, fuzzy navigation
 
-Since we know what files you're interested in, we can do fuzzy navigation as popularized by Textmate and carried on in SublimeText. It's the fastest experience we've seen for a strict-file recognition approach and so we went with it too. 
+Since we know what files you're interested in, we can do fuzzy navigation as popularized by Textmate and carried on in SublimeText. It's the fastest experience we've seen for a strict-file recognition approach and so we went with it too.
 
 ![navigate](/images/030/navigate.png)
 
@@ -52,7 +52,7 @@ In the long run, there will be more efficient means of getting around to the exa
 
 ###Command search
 
-A big thing I wanted to tackle was to come up with a command strategy that works nicely with the keyboard, but also allows for some complex and interesting interactions that remain workable with a mouse. The side command search is what we came up with. 
+A big thing I wanted to tackle was to come up with a command strategy that works nicely with the keyboard, but also allows for some complex and interesting interactions that remain workable with a mouse. The side command search is what we came up with.
 
 ![commands](/images/030/command.png)
 

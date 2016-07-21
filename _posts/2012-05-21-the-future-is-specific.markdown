@@ -12,7 +12,7 @@ If we look at the trends in programminging languages over the past decade, we've
 
 While generalized editors and IDEs have proven very useful and have helped us get to where we are today, they are necessarily ok at everything and not amazing at any one thing. When I first introduced [Light Table][lt], I showed what a general programming environment based on a set of principles might look like. That, however, is not the real power of what we're building - the real potential is in making it trivial to build domain specific tools. Let me show you what I mean.
 
-<iframe src="http://player.vimeo.com/video/42595773?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="video"><iframe src="http://player.vimeo.com/video/42595773?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 Here's a breakdown of some of the things I showed in the video:
 
