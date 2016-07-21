@@ -24,6 +24,8 @@ Through all our prototypes, the core has been a language integrated with some fo
 
 Regardless of what may happen with the interface, the platform will be useful in a traditional programming context whether as a full application server, a database, or something in between. But if we separate out the UI, we still need to give people some way to use it. Since we're talking about a traditional programming context, it makes sense to just meet on common ground: a textual syntax and a simple JSON protocol. The audience here is programmers and while most everything else is going to be different than what people are used to, we can at least provide a familiar interface. The past few months we've been focused solely on getting this ready and are releasing some alpha stuff on the [mailing list][mailinglist] with a broad release coming this fall.
 
+![eve clock](https://github.com/witheve/assets/raw/master/images/eveclock.gif?raw=true)
+
 ### An important step toward end users
 
 It might seem odd, but the platform itself represents an important step toward our goal of reaching end users. While a cancer researcher couldn't care less about a temporal relational language, they do care about the walls that software builds around them; and when the abstractions leak, they're confronted with the horror underneath. The platform is necessary because we can't just paper over the complexity anymore. 
