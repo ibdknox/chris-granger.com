@@ -49,7 +49,7 @@ The past two years have been mind bending trying to navigate an insanely complex
 [markdowneve]: http://incidentalcomplexity.com/2016/06/10/jan-feb/
 [diffusion]: https://en.wikipedia.org/wiki/Diffusion_of_innovations
 [therac]: http://hackaday.com/2015/10/26/killed-by-a-machine-the-therac-25/
-[softwarefailures]: http://www.tricentis.com/blog/2015/11/03/software-failures-of-2015-quarter-three/
+[softwarefailures]: http://www.tricentis.com/resource-assets/report-software-fail-watch-2015-in-review/
 [bidstalk]: https://www.youtube.com/watch?v=VZQoAKJPbh8
 [dedalus]: http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-173.html
 [betterprogramming]: http://www.chris-granger.com/2014/03/27/toward-a-better-programming/ 
