@@ -1,5 +1,3 @@
 highlight: pygments
 permalink: pretty
-markdown: redcarpet
-redcarpet:
-  extensions: ["footnotes"]
+markdown: kramdown
