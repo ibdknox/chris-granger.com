@@ -11,7 +11,7 @@ Lots of folks have been interested in ClojureScript lately, but have had a hard 
 
 Since I don't narrate in the video, I figured I'd give a breakdown of some of the main ideas below. If you want all the gory details though, you can watch the [screencast][recorded] or look at the [code]. Now to the fun part.
 
-###Getting started
+### Getting started
 
 The first step is to generate a new noir project using lein-noir (if you're new to noir, check out [noir's website][noir])
 
@@ -31,7 +31,7 @@ Now to set up our project we just need to include our dependencies, which with t
                  [fetch "0.1.0-SNAPSHOT"]
                  [noir "1.3.0-alpha10"]]
   :cljsbuild {:source-path "src"
-              :compiler 
+              :compiler
                 {:output-dir "resources/public/cljs/"
                  :output-to "resources/public/cljs/bootstrap.js"
                  :optimizations :simple
@@ -46,7 +46,7 @@ You see here that we also added a cljsbuild key that defines some properties for
             (html5
               [:head
                [:title "overtoneinterface"]
-               (include-css "/css/reset.css") 
+               (include-css "/css/reset.css")
                (include-css "/css/default.css")
                (include-js "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")]
               [:body
@@ -78,7 +78,7 @@ I always end up creating a src/myapp/client/ directory where I keep my CLJS. So 
 
 Now we're off to the races.
 
-###Using crate and jayq
+### Using crate and jayq
 
 [crate] is a ClojureScript implementation of the HTML generation library [Hiccup], which represents html as Clojure vectors and maps. We use a special macro called `(defpartial ..)` to create a function that will create dom objects for us.
 
@@ -93,7 +93,7 @@ Now we're off to the races.
 
 One thing to note here is that there's a special directive for requiring macros in CLJS. Also, any namespace used by that macro must be required as well, or otherwise that code won't end up in the generated file. Now to do something with it, we'll use jayq.
 
-[jayq] is a simple ClojureScript jQuery wrapper that I wrote, which makes it easy to do all your standard dom manipulations like you're used to. 
+[jayq] is a simple ClojureScript jQuery wrapper that I wrote, which makes it easy to do all your standard dom manipulations like you're used to.
 
 {% highlight clojure %}
 (ns overtoneinterface.client.main
@@ -106,8 +106,8 @@ One thing to note here is that there's a special directive for requiring macros 
 (defpartial button [{:keys [label action param]}]
   [:a.button {:href "#" :data-action action :data-param param} label])
 
-(append $piano (button {:label "play note" 
-                        :action "play-note" 
+(append $piano (button {:label "play note"
+                        :action "play-note"
                         :param ""))))
 {% endhighlight %}
 
@@ -124,7 +124,7 @@ It does, however, add some interesting bits. One of which, is that dom elements 
 
 Time to make that handler a bit more interesting. We're here to make music afterall.
 
-###Interacting with the server - fetch
+### Interacting with the server - fetch
 
 [fetch] is the next piece of the puzzle which helps us by removing the barrier between the server and the client. In this case, we're going to use remotes, which are functions defined on the server that are then called by the client. Normally, these would look something like this:
 
@@ -147,7 +147,7 @@ But since we want to call these dynamically based on whatever action our button 
 (delegate $body button :click
           (fn [e]
             (.preventDefault e)
-            (this-as me 
+            (this-as me
               (let [$me ($ me)
                     action (data $me :action)
                     param (data $me :param)
@@ -196,19 +196,19 @@ And define a remote in views/welcome.clj
 (defremote play-note [n]
   (sampled-piano n))
 
-;;play-note is also just a regular function, meaning you could use 
+;;play-note is also just a regular function, meaning you could use
 ;;it in your clj code like normal..
 ;;(play-note 60)
 {% endhighlight %}
 
 If this is the first time your server has loaded overtone.live, it may take a few seconds for it to refresh as it has to startup supercollider and a few other things. Also, if this is your first time ever using the sampled piano, it has to download a pretty large set of samples (this can take an hour). Assuming you have both of those though, clicking the button will cause a tone to be played. In the video, this happens at [11:20](http://www.youtube.com/watch?v=lcRQFGtFiyE&feature=youtu.be&hd=1#t=11m20s).
 
-###Adding a bit more.
+### Adding a bit more.
 
 At this point the fundamentals of the app are there, the rest is just icing on the cake. I clean up the code so that it's easy to add a bunch of buttons to a container and create more piano keys for us to click:
 
 {% highlight clojure %}
-(def piano-notes (for [note (range 40 60)] 
+(def piano-notes (for [note (range 40 60)]
                    {:label (str note) :action "play-note" :param note}))
 
 (defn populate [container buttons]
@@ -271,13 +271,13 @@ And here's the final main.cljs:
 (defpartial button [{:keys [label action param]}]
   [:a.button {:href "#" :data-action action :data-param param} label])
 
-(def piano-notes (for [note (range 40 60)] 
+(def piano-notes (for [note (range 40 60)]
                    {:label (str note) :action "play-note" :param note}))
 
-(def dub-notes (for [note (range 40 80)] 
+(def dub-notes (for [note (range 40 80)]
                    {:label (str note) :action "dub-note" :param note}))
 
-(def dub-wobble (for [w (range 0 8)] 
+(def dub-wobble (for [w (range 0 8)]
                    {:label (str "w" w) :action "dub-wobble" :param w}))
 
 (def control-buttons [{:label "start" :action "start-dub" :param ""}
@@ -295,7 +295,7 @@ And here's the final main.cljs:
 (delegate $body button :click
           (fn [e]
             (.preventDefault e)
-            (this-as me 
+            (this-as me
               (let [$me ($ me)
                     action (data $me :action)
                     param (data $me :param)

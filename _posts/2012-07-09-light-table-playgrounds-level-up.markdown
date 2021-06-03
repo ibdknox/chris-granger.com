@@ -10,13 +10,13 @@ I'm happy to announce the release of v0.0.7 of the [Light Table Playground][ltp]
 
 Here's a breakdown of what's new.
 
-###A little guide
+### A little guide
 
 ![The shade](/images/lightable/shade.png)
 
 The first thing you're greeted with when you open 0.0.7 is what we're calling the shade. The shade shows you new things that you can do and acts as a sort of interactive change log. Hopefully this will help keep people up to date on what comes out in a more memorable and useful way.
 
-###Manual Mode
+### Manual Mode
 
 You now have the ability to enter manual mode in the Instarepl, by simply clicking the live button in the top right, or by pressing Cmd/Ctrl-L.
 
@@ -24,7 +24,7 @@ You now have the ability to enter manual mode in the Instarepl, by simply clicki
 
 Once in manual mode, code is no longer evaluated as you type, but instead when you trigger evaluation of the whole editor with Cmd/Ctrl-Enter or a single form using Shift-Enter. This gives you a lot more flexibility to execute only what you want when you want to, while still maintaining the nice data visualization that the Instarepl offers. This means you can play around more with side-effecty code and other bits that you may not want executing after every keystroke.
 
-###Sidebar
+### Sidebar
 
 The sidebar is currently just a simple menu, but will ultimately be the source of a lot of interaction with Light Table's command set.
 
@@ -32,7 +32,7 @@ The sidebar is currently just a simple menu, but will ultimately be the source o
 
 Currently it only has two verbs: connect and set. Set allows you to change the font size, which will be persisted between sessions. Connect allows you to hook into other running Light Table clients.
 
-###lein-light
+### lein-light
 
 The most exciting addition to the playground is the ability to use your own projects as the context for the Instarepl. You do this by using the [lein-light][ll] [leiningen][lein] plugin. Just run `lein light` from one of your projects and use the sidebar's connect verb to hook into it.
 
@@ -40,7 +40,7 @@ The most exciting addition to the playground is the ability to use your own proj
 
 That's all it takes to get the playground working in your own projects. Coupled with manual mode, you can now get to town building [websites][noir], [working with data][cascalog], or [making music][overtone].
 
-###Misc
+### Misc
 
 Lastly there have been many small miscellaneous changes that seek to help performance by being a bit smarter about when and how things get executed. The addition of basic settings is also there and helps persist font size across opens. We've also switched to https to be more secure for the downloads.
 

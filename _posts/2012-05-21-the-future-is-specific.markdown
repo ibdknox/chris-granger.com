@@ -16,7 +16,7 @@ While generalized editors and IDEs have proven very useful and have helped us ge
 
 Here's a breakdown of some of the things I showed in the video:
 
-###Example one: a benchmarking mode
+### Example one: a benchmarking mode
 
 ![A benchmarking mode](/images/lightable/benchmarking.png)
 
@@ -26,7 +26,7 @@ This is a simple example of a mode created in a few hours to accompany a little 
 
 To the right is the code of the benchmark as well as a graph of the results and a table displaying the actual execution times. Here you can see that one of the lines is tinted red - that's because the result wasn't the same as the baseline, which indicates that I probably introduced a bug in my changes.
 
-###Example two: a SQL mode (using Korma)
+### Example two: a SQL mode (using Korma)
 
 ![A sql mode](/images/lightable/sqlmode.png)
 
@@ -36,7 +36,7 @@ This is a mode for crafting queries using [Korma][korma]. Korma is a SQL DSL tha
 
 If you evaluate the Korma buffer, it will then show you the results off to the side in a nice little list. This allows you to quickly mess around with some Korma code and see what it does internally as well as test that the results are what you expect.
 
-###Example three: a Flask mode (Python!)
+### Example three: a Flask mode (Python!)
 
 ![A flask mode for python](/images/lightable/flask.png)
 
@@ -50,7 +50,7 @@ In traditional web-MVC, the code necessary to serve a single route is spread acr
 
 Since MVC usually has a specific structure, you can also begin to add some knowledge of the architecture of the website to the tool. In this case, we know where all these functions and bits of code come from and as such can automatically place them in the appropriate architectural layers (routing, modeling, templating). You can then turn those layers on and off to hide the bits of code that aren't currently pertinent to what you're doing.
 
-###A parallel
+### A parallel
 
 It occured to me the other day that what we're talking about is something like a macro system for tools. To the lispers out there, that statement probably hits home - macros are incredibly [powerful][pg]. Imagine being able to create these sorts of experiences on a whim instead of needing hundreds of hours to even get something simple working. If you couple that with the generalized editing capabilities I showed last time, you have what we believe to be the future of tools: an environment that you are able to mold to the exact shape of your problem.
 

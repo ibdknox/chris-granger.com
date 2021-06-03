@@ -8,29 +8,29 @@ For the [Node Knockout][nko] last month, we wanted to build a game in [Light Tab
 
 <div class="video"><iframe width="600" height="338" src="http://www.youtube.com/embed/v09DnU4vQ74" frameborder="0" allowfullscreen></iframe></div>
 
-###How do you build a game in ClojureScript?
+### How do you build a game in ClojureScript?
 
 I've built a couple games before in JavaScript that relied on the more standard inheritance based design. But that OOP-centric way of thinking about the entities and logic of the game doesn't fit very well with ClojureScript. Given how young it is, Clojure(Script) hasn't been used to create a lot of games and even if you broaden the search to functional languages, you'll find that it's still mostly an area of research. After some digging though, I did find a game design theory that actually fits very nicely: the Component-Entity-System engine. Much to my surprise, though, I couldn't really find a good explanation of the concepts on the internet, which among other things might include an actual example. So, let's fix that and go through the concepts behind how ChromaShift works.
 
-###The traditional way of thinking
+### The traditional way of thinking
 
 The traditional way of thinking about games is fairly intuitive. You represent objects in the game as objects in code. So if you have a player, you'd create a player class that contains all the player's attributes; things like position, health, ammo, etc. Then you create an `update()` method that calls other methods like `shoot()` or `jump()` that read and change those attributes. To keep things DRY, you'll probably end up creating some base classes because entities in a game often have many different variations with small differences.
 
-###The problem
+### The problem
 
 The problem with this, however, is that in order to actually reuse code as much as possible, you end up being forced into deep unnatural object hierarchies with lots of overridden methods. With thousands of entities in a game, you lose all sense of where things are defined, how they're changed deeper in the hierarchy, and where the best place to add something really is. This approach also means new combinations of functionality have to be written by programmers, forcing game designers to ask for different variations.
 
-###A different approach: Component-Entity-System
+### A different approach: Component-Entity-System
 
 A CES engine addresses a number of the problems game devs ran into while trying to build complex games that required a lot of variation in the game objects. As we'll see, it also ended up being a great way to give content designers a lot more power in shaping the functionality of the game.
 
 A CES engine has 3 parts as the name suggests; components, entities, and systems. I think the best way to go about understanding how it really works is to walk through each of these pieces individually and then see how they fit together.
 
-###Entities
+### Entities
 
 We're actually going to start in the middle, because entities are the easiest thing to understand. **They are nothing more than a unique ID.** That's it. You use this ID to link together all of the state related to something in the game. That state is held in **components**.
 
-###Components
+### Components
 
 **Components are little single purpose bits of state.** Instead of representing a player as a monolithic object with lots of attributes to cover everything from position to number of lives, you break these different aspects apart into single intentioned objects. For example, a component for position would have an x, y, and maybe an angle of rotation, but nothing else:
 
@@ -73,7 +73,7 @@ What's particularly interesting here is that **we've turned our entire game into
 
 So far, however, all we've talked about is state. There's been no logic in entities or components, which brings us to the final piece of the puzzle: systems.
 
-###Systems
+### Systems
 
 **Systems are single purpose functions that take in a set of entities which have a specific component (or set of components) and update them.** Let's look at the concrete example of rendering to see what I mean. First off, we need a component to say that this entity is meant to be rendered. We'll call it `renderable`:
 
@@ -102,11 +102,11 @@ So now that we have a `renderer` function, we just need to call it in every tick
 ```
 And that's it. Now any entity that gets the renderable component will start rendering with every tick of the game. By doing your logic this way, you ensure that it's single purpose, easy to modify, and freely available to any object in the game that may need it.
 
-###Data and simple functions
+### Data and simple functions
 
 This approach turns a game into a data-structure with simple functions that work over it. It allows you to easily combine functionality in interesting and clever ways that you may not initially have realized, and keeps you out of the murky hell that is deep, highly overridden hierarchies. As a bonus, the engine is even quite easy to implement in basically any language. In [ChromaShift's case][csgh] the core structure and caches for [the engine][jsg] are actually written in JavaScript for performance reasons, while all of the [game CES][gces] is written in ClojureScript.
 
-###A twist: CES and Light Table
+### A twist: CES and Light Table
 
 The most interesting aspect to all of this, however, is that I haven't just been telling you how we built ChromaShift for the Node Knockout, but I've also been laying the conceptual groundwork to understand how [Light Table][lt] itself is constructed. In my next post we'll see that the latest version of [Light Table][lt] is actually heavily inspired by the concepts of CES engines and takes a novel approach toward applying some of these ideas to an event driven application.
 

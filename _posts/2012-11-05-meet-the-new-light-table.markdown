@@ -18,13 +18,13 @@ Well, let's see it in action.
 
 <div class="video"><iframe width="600" height="338" src="http://www.youtube.com/embed/PsVJJp1XnzQ?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-###A real app
+### A real app
 
 First and foremost, Light Table is now a real app, not some weird concotion of a clojure server and a browser. It has an executable that you double click to run. Simple as that.
 
 ![Light Table app](/images/020/app.jpg)
 
-###General editing
+### General editing
 
 ![tabs](/images/020/tabs.jpg)
 
@@ -34,7 +34,7 @@ The 0.2.0 release has more of the general editing features you'd expect in a pro
 
 This also includes a command bar, which is the source of most of the non-text-in-buffer actions you can do in Light Table. It's how you spawn an instarepl (the instant evaluation environment I showed in the first video), open files, and connect to projects.
 
-###Eval from any file
+### Eval from any file
 
 Unlike the stricter table mode that existed in 0.1.0, you now have the freedom to simply eval from any file you're working on. While this only supports Clojure and ClojureScript in this initial iteration, we'll be seeing this used in a lot more places soon.
 
@@ -42,7 +42,7 @@ Unlike the stricter table mode that existed in 0.1.0, you now have the freedom t
 
 Eval results show up on the right-hand side of the environment in a little list that you can hover over to make larger. All the results are also saved for you there, so you can simply scrollback through them if you want. Evaling doesn't block the editor in any way, so keep on keeping on while your process toils away in the background.
 
-###Connect to multiple projects
+### Connect to multiple projects
 
 Working with multiple projects with different kinds of files is a non-issue in Light Table. If you try to eval something where no client can currently handle it, it will prompt you to use the `connect` command to spin up a client for that project.
 

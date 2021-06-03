@@ -12,7 +12,7 @@ If you ask google to [define literacy](https://www.google.com/webhp?sourceid=chr
 
 This is certainly accurate, but defining literacy as interpreting and making marks on a sheet of paper is grossly inadequate. Reading and writing are the physical actions we use to employ something far more important: external, distributable storage for the mind. Being literate isn't simply a matter of being able to put words on the page, it's solidifying our thoughts such that they *can* be written. Interpreting and applying someone else's thoughts is the equivalent for reading. **We call these composition and comprehension. And they are what literacy really is.**
 
-###Coding is not the fundamental skill
+### Coding is not the fundamental skill
 
 When we say that coding is the new literacy, we're arguing that wielding a pencil and paper is the old one. Coding, like writing, is a mechanical act. All we've done is upgrade the storage medium. Writing if statements and for loops is straightforward to teach people, but it doesn't make them any more capable. Just like writing, we have to know how to solidify our thoughts and get them out of our head. In the case of programming though, if we manage to do that in a certain way, a computer can do more than just store them. It can compute with them.
 
@@ -20,7 +20,7 @@ Reading and writing gave us external and distributable storage. Coding gives us 
 
 We build mental models of everything - from how to tie our shoes to the way macro-economic systems work. With these, we make decisions, predictions, and understand our experiences. **If we want computers to be able to compute for us, then we have to accurately extract these models from our heads and record them.** Writing Python isn't the fundamental skill we need to teach people. Modeling systems is.
 
-###Modeling is the new literacy
+### Modeling is the new literacy
 
 In the same way that composition and comprehension are not tied to paper, modeling is not tied to computers. It can be both physical and mental. It takes place on paper and in Excel or with Legos and balsa wood airplanes. It is an incredibly powerful skill which we can make even greater use of by transposing our models to computers. To understand how we do that, we have to look more deeply at what it means to model.
 
@@ -30,13 +30,13 @@ This definition encompasses a few skills, but the most important one is specific
 
 Defining a system or process requires breaking it down into pieces and defining those, which can then be broken down further. It is a process that helps acknowledge and remove ambiguity and it is the most important aspect of teaching people to model. In breaking parts down we can take something overwhelmingly complex and frame it in terms that we understand and actions we know how to do. The parallel to programming here is very apparent: writing a program is breaking a system down until you arrive at ideas that a *computer* understands and actions it knows how to do. In either case, we have to specify our system and we do that through a process of iterative crafting.
 
-###Creation is exploration
+### Creation is exploration
 
 We create models by crafting them out of material.[^2] Sometimes our material is wood, metal, or plastic. Other times it's data or information from our senses. Either way, we start our models with a medium that we mold. This helps us escape the trap of the blank page - by starting with a hunk of clay (or data, or some physical motion, or Legos...) we don't have to imagine the leap from nothingness to something. Instead, we can get to work by manipulating what's in front of us. We can hone, and whittle, and bend, and pull apart, and glue. We can shape it as we see fit.
 
 **The process of creating a model is an act of discovery - we find out what pieces we need as we shape our material.** This means we needn't fully specify a system to get started, we can simply craft new pieces as we go. We end up exploring the system as we create it and don't have to get a "complete" model to gain value. We can simply tinker. We can shave a little off or glue a some on to see what happens. And along the way, we bolster our intuition of how systems behave.
 
-###Exploration is understanding
+### Exploration is understanding
 
 Physical modeling teaches us the value of being able to take things apart, whether that's removing every single screw and laying the whole engine block out on the garage floor or just removing the alternator and having a look. By pulling something apart we can directly explore what makes it up. This is why interfaces in movies like Iron Man are so compelling - they allow us to just dive in.
 
@@ -46,13 +46,13 @@ Physical modeling teaches us the value of being able to take things apart, wheth
 
 We gain understanding through exploration, through fiddling with models and "playing them out" to see what happens. We can make our wheels bigger or plug in a different number for the interest rate and simulate the result. Through this process, we experience and imagine things we might not otherwise be able to, and the more experiences we have, the more we understand how the world works.
 
-###Digital freedom
+### Digital freedom
 
 While properties of physical modeling are useful to us as guiding principles, the digital world offers us an opportunity to step out of their limitations. We can freely create copies of parts or craft many different versions of them. We can make changes to individual pieces and the system will adapt to them. We can simulate our models in different contexts, while sophisticated tools verify our expectations. **By transposing our models to a computer, we can offload the work necessary to change, simulate, and verify.** We can even have our models suggest actions and let other systems perform them for us. As such, we free ourselves to explore without every change requiring us to hit the metaphorical machine shop.
 
 There are a number of tools that already help us do this - from [Matlab](http://www.mathworks.com/products/matlab/) to [Quartz Composer](http://en.wikipedia.org/wiki/Quartz_Composer) - but Excel is unquestionably the king. Through Excel we can model any system that we can represent as numbers on a grid, which it turns out, is a lot of them. We have modeled everything from entire businesses to markets to family vacations. Millions of people are able to use spreadsheets to model aspects of their lives and it could be argued that, outside of the Internet, it's the single most important tool available to us on a computer. It gains this power by providing a simple and intuitive set of tools for shaping just one material: a grid of numbers. If we want to work with more than that, however, we have to code.
 
-###A fundamental disconnect
+### A fundamental disconnect
 
 Coding requires us to break our systems down into actions that the computer understands, which represents a fundamental disconnect in intent. Most programs are not trying to specify how things are distributed across cores or how objects should be laid out in memory. **We are not trying to model how a computer does something.[^history] Instead, we are modeling human interaction, the weather, or spacecraft.** From that angle, it's like trying to paint using a welder's torch. We are employing a set of tools designed to model how *computers* work, but we're representing systems that are nothing like them.[^modules]
 
@@ -62,7 +62,7 @@ On the surface, it seems desirable to have "one tool to rule them all," but the 
 
 Programming as it exists now forces us to model, but it does so in an unnatural way. And while teaching ourselves how to program will help us learn how to break systems down, it does so at the risk of focusing on the wrong things.[^risk] **We don't want a generation of people forced to care about Unicode and UI toolkits. We want a generation of writers, biologists, and accountants that can leverage computers.**
 
-###How we teach children
+### How we teach children
 
 We are natural-born modelers and we learn by creating representations that we validate against the world. Our models often start out too simplistic or even obviously wrong, but that's perfectly acceptable (and arguably necessary[^wrong]), as we can continue to update them as we go. Any parent could give you examples of how this plays out in their children, though they may not have fully internalized that this is what's happening. A great example is that infants initially have a model of existence that relies on seeing objects. This is why not being able to see their parents is so distressing - it means that they no longer exist.[^permanence] The notion of object permanence is something that children only fully develop after a couple years of honing their model for how physical objects behave.
 
@@ -78,7 +78,7 @@ __Exploration__: How to then play with the model to better understand possible o
 
 Focusing on these four areas captures the basic process by which we create, hone, and use models and it allows children to become active participants in the process by which they learn. **Perhaps even more importantly, focusing on modeling pushes education towards the idea that pedagogy is really guiding children to deliberately create and explore the world around them.[^mindstorms]**
 
-###How we should teach adults
+### How we should teach adults
 
 Realistically, we should be teaching ourselves the same things, but unfortunately adult education rarely allows for undirected exploration (we're just trying to get something done). Instead, we could frame modeling in terms of how we might use models in context. For example, if you're an accountant that goes through the same process every day to create a report, you could break it down to see how you might automate portions of it. What are the fundamental actions necessary to create that report?  Are there tools that can do those actions for you?
 

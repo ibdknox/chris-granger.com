@@ -11,9 +11,9 @@ class: lighttable
 
 Light Table is an open source IDE that lets you modify running programs and embed anything from websites to games. It provides the real time feedback we need to not only answer questions about our code, but to understand how our programs really work.
 
-####[Try it out!][dl]
+#### [Try it out!][dl]
 
-###Learn more
+### Learn more
 
 * [Getting started][docs]
 * [The original blog post][lt]
@@ -27,7 +27,7 @@ Light Table is an open source IDE that lets you modify running programs and embe
 * [Light Table 0.5.0][05]
 * [Light Table is open source (0.6.0)][06]
 
-###Project links
+### Project links
 * [Light Table on Github][gh]
 * [Announcements List][ann]
 * [Discussion List][disc]

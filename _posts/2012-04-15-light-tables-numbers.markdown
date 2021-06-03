@@ -22,23 +22,23 @@ So the big question on most people's minds is "Now what?". To be honest, when I 
 
 I was surprised at the number of people who cried out for a Kickstarter for the project. After some thought and some serious discussions with my best friend (and co-founder), we've decided to switch gears from a different project and do exactly that. I'm happy to announce that we submitted our Kickstarter earlier today and are simply waiting for it to be reviewed. In the meantime, I thought I'd post a couple of the FAQ-y type things from our description there:
 
-###What languages will it support?
+### What languages will it support?
 
 The first two languages it will support are Javascript and Clojure, but the application will be written in such a way that adding new languages can happen through plugins.
 
-###Can I script/extend it?
+### Can I script/extend it?
 
 It will be scriptable in Javascript or anything that can compile down to it :) Ultimately the goal of the platform is to be a highly extensible work surface - even the initial core languages will be written as plugins. This allows us to build development interfaces we haven't even imagined yet.
 
-###What about key bindings?
+### What about key bindings?
 
 I'm a VIM guy myself, but since we'll be using the awesome [CodeMirror][cm] editor, this is something that is easily adapted. If you're looking for a way to contribute, help improve CodeMirror and its emacs/vim plugins!
 
-###Will it be open source?
+### Will it be open source?
 
 I'm a firm believer in open source software and open source technologies. I can guarantee you that Light Table will be built on top of the technologies that are freely available to us today. As such, I believe it only fair that the core of Light Table be open sourced once it is launched, while some of the plugins may remained closed source. At some level, this is an experiment in how open source and business can mix - it will be educational for us all.
 
-###How can I help in the meantime?
+### How can I help in the meantime?
 
 Like I said above, help improve [CodeMirror][cm]. The better that editor is, the better all editors on the internet can be! Past that, help us spread the word. The more money we get the more people I can involve in the project, the more languages we can support, and the more powerful we can make the entire platform. There's tremendous potential that we haven't even scratched the surface of yet!
 
