@@ -6,7 +6,7 @@ tags: []
 
 For the [Node Knockout][nko] last month, we wanted to build a game in [Light Table][lt] using ClojureScript. What we ultimately came up with was a fun little racing platformer called [ChromaShift][cs]. All the [code and assets][csgh] were created during the 48 hours of the competition and in the end [we did pretty well][csnko], coming in 7th [overall][nko-overall]. Here's a video of the game in action:
 
-<div class="video"><iframe width="600" height="338" src="http://www.youtube.com/embed/v09DnU4vQ74" frameborder="0" allowfullscreen></iframe></div>
+<div class="video"><iframe width="600" height="338" src="https://www.youtube.com/embed/v09DnU4vQ74" frameborder="0" allowfullscreen></iframe></div>
 
 ### How do you build a game in ClojureScript?
 

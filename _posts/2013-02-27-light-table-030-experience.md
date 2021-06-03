@@ -32,7 +32,7 @@ We also did this for the instarepl so that you don't lose all that screen real e
 
 You can now eval JavaScript in a browser (or directly in LT)! Just open a JS file and press Cmd/Ctrl-Enter while your cursor is on a block or an expression and you'll see the result inline. Connecting to a browser is just a matter of including a script tag (use the "Connect to a browser" command to get it) in your page. Here's a little video of the process:
 
-<div class="video"><iframe width="600" height="450" src="http://www.youtube.com/embed/Zg6Nja8C9rU?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video"><iframe width="600" height="450" src="https://www.youtube.com/embed/Zg6Nja8C9rU?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 You can also "eval" css into the browser, allowing you write and test your CSS without having to refresh. The same things works with ClojureScript too, though you need to have some things already on the page for it to work. Some tutorial content for that is forthcoming.
 

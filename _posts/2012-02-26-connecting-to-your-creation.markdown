@@ -28,5 +28,5 @@ I didn't put it up on heroku because the latency kills the real-time aspect of i
 
 [Discuss this on HackerNews](http://news.ycombinator.com/item?id=3639441)
 
-[talk]: http://vimeo.com/36579366
+[talk]: https://vimeo.com/36579366
 [lein]: https://github.com/technomancy/leiningen

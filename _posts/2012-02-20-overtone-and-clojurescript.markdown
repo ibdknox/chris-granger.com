@@ -201,7 +201,7 @@ And define a remote in views/welcome.clj
 ;;(play-note 60)
 {% endhighlight %}
 
-If this is the first time your server has loaded overtone.live, it may take a few seconds for it to refresh as it has to startup supercollider and a few other things. Also, if this is your first time ever using the sampled piano, it has to download a pretty large set of samples (this can take an hour). Assuming you have both of those though, clicking the button will cause a tone to be played. In the video, this happens at [11:20](http://www.youtube.com/watch?v=lcRQFGtFiyE&feature=youtu.be&hd=1#t=11m20s).
+If this is the first time your server has loaded overtone.live, it may take a few seconds for it to refresh as it has to startup supercollider and a few other things. Also, if this is your first time ever using the sampled piano, it has to download a pretty large set of samples (this can take an hour). Assuming you have both of those though, clicking the button will cause a tone to be played. In the video, this happens at [11:20](https://www.youtube.com/watch?v=lcRQFGtFiyE&feature=youtu.be&hd=1#t=11m20s).
 
 ### Adding a bit more.
 

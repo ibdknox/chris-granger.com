@@ -101,7 +101,7 @@ I've always been fascinated with development tools - creating the things used to
 [noir]: /projects/noir/
 [cljs]: /projects/cljs/
 [bubbles]: http://www.andrewbragdon.com/codebubbles_site.asp
-[talk]: http://vimeo.com/36579366
+[talk]: https://vimeo.com/36579366
 [bret]: http://worrydream.com
 [video]: http://youtube.com/
 [discovered]: /2012/02/26/connecting-to-your-creation/
