@@ -74,6 +74,7 @@ iframe { margin-bottom:20px; }
 #content .archive { list-style:none !important; margin-top:35px; display:block; padding-left:0; font-family:"Open Sans", sans-serif; }
 #content .archive li { margin-bottom:5px; width:100%; font-size:18px; }
 #content .archive li:hover { background: #f0f0f0; border-radius:2px; }
+#content .archive li + li { margin-top:0; }
 #content .archive a { min-width:200px; }
 #content .archive span { color:#888; float:right; font-size:15px; margin-top:1px; }
 
