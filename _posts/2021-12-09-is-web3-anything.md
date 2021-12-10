@@ -8,7 +8,7 @@ The term “web3” seems pretty fluid and is being used as a label for a bunch 
 
 Most of the descriptions I’ve seen focus on _mechanisms_ - block chains, smart contracts, tokens, etc - but I would argue those are implementation details and some are much more likely to succeed than others. (E.g. I think using private keys for authentication/authorization is obviously better if you can get over the UX hump - SSH has shown us that for decades.) The real question is what fundamental capability are people pointing to when they talk about web3?
 
-The best explanation I've heard so far is that it’s a protocol/architecture for near-trustless commitments[^1], which honestly doesn’t sound like much. But if you think about it, commitments underlie virtually all of modern society, which I think is a big part of why even the well-intentioned rhetoric around the space gets so crazy.
+The [best explanation][dixon] I've heard so far is that it’s a protocol/architecture for near-trustless commitments[^1], which honestly doesn’t sound like much. But if you think about it, commitments underlie virtually all of modern society, which I think is a big part of why even the well-intentioned rhetoric around the space gets so crazy.
 
 Some examples:
 
@@ -40,4 +40,4 @@ As a relative outsider, trust-less commitments seem to be at the heart of what w
 [^2]: There is still a negative trust scenario here, namely what if the neighbors collude and vote that you failed to improve the park despite having done what was specified. The contract could further specify that some neutral third party acts as an arbiter in that case. This is another reason why I believe it’s not actually about removing trust, but instead increasing what can be done with the trust you do have.
 [^3]: For better or for worse it’s going to do exactly what was said. There’s a strong argument for needing to find some way to handle extenuating circumstances, as well as creating a set of extremely well vetted contracts for common scenarios, which is the norm in contract law already.
 [^4]: This is ostensibly what the legal system provides, but anyone who’s actually tried to go through small claims court knows that the reality of that route is… painful. And it often ends unsatisfactorily.
-
+[dixon]: https://twitter.com/cdixon/status/1458092980233981959
