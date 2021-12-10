@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Is Web3... anything?"
+title: "\"Is Web3... anything?\""
 tags: []
 ---
-
-# “Is Web3… anything?”
 
 The term “web3” seems pretty fluid and is being used as a label for a bunch of disparate ideas. Given that it’s a decentralized group describing a decentralized movement, that lack of focus isn’t exactly surprising. Almost by definition it’s going to end up being different things to different people.
 
