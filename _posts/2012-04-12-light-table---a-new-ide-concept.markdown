@@ -16,7 +16,7 @@ We **can** do better, and to that end, let me introduce you to
 
 <div class="video">
 <iframe src="https://player.vimeo.com/video/40281991?h=e7573f00dc" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/40281991">Light Table - a new IDE</a> from <a href="https://vimeo.com/user11261775">Chris Granger</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+</div>
 
 Light Table is based on a very simple idea: we need a real work surface to code on, not just an editor and a project explorer. We need to be able to move things around, keep clutter down, and bring information to the foreground in the places we need it most. Here's what the default mode looks like:
 
