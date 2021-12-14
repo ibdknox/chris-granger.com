@@ -35,7 +35,7 @@ iframe { margin-bottom:20px; }
 #content { min-width:295px; padding-top:25px; font-size:18px; font-family:'Merriweather', 'Georgia', serif; font-weight:300; }
 #content * {margin:0 auto; }
 #content header { max-width: 700px; margin-bottom:35px; }
-#content h2 { text-align:center; font-size:32px; line-height:38px; font-weight:bold; max-width:700px; font-family: "Open Sans", sans-serif; }
+#content h2 { font-size:32px; line-height:38px; font-weight:bold; max-width:700px; font-family: "Open Sans", sans-serif; }
 #content h2 a { color:#fff; color:#222;  }
 #content h3 { font-size: 24px; line-height:30px; font-weight:bold; margin-bottom:20px; max-width:700px; font-family: "Open Sans", sans-serif;}
 #content ul {list-style:inside; max-width:700px; margin-bottom:35px; padding-left:15px; }
