@@ -22,7 +22,7 @@ High performance systems, database and compiler implementation, novel interfaces
             <span class="company">Jump</span>
             <span class="dash">-</span>
             <span class="title">Principal</span>
-        <div>
+        </div>
         <div class="date">2020 - PRESENT</div>
         <ul>
             <li>Independent research and consulting in distributed systems, CRDTs, programming interfaces, NLP, and reasoning.</li>
@@ -35,7 +35,7 @@ High performance systems, database and compiler implementation, novel interfaces
             <span class="company">RelationalAI</span>
             <span class="dash">-</span>
             <span class="title">VP Produce</span>
-        <div>
+        </div>
         <div class="date">2019 - 2020</div>
         <ul>
             <li>Defined a position and vision for the company as an AI embedded database platform and led the design of novel tools to support it.</li>
@@ -47,7 +47,7 @@ High performance systems, database and compiler implementation, novel interfaces
             <span class="company">Looker</span>
             <span class="dash">-</span>
             <span class="title">Principal Engineer</span>
-        <div>
+        </div>
         <div class="date">2018 - 2019</div>
         <ul>
             <li>Worked with a small team to research, conceptualize, design, and prototype the future of Looker.</li>
@@ -59,7 +59,7 @@ High performance systems, database and compiler implementation, novel interfaces
             <span class="company">Light Table / Eve</span>
             <span class="dash">-</span>
             <span class="title">Cofounder and CEO (YCS12, a16z, Sam Altman)</span>
-        <div>
+        </div>
         <div class="date">2011 - 2018</div>
         <ul>
             <li>Built an IDE from scratch that was the most successful software kickstarter of the time and became a stated influence on the design of tools at Apple, Google, Microsoft, and many others. </li>
@@ -72,7 +72,7 @@ High performance systems, database and compiler implementation, novel interfaces
             <span class="company">Microsoft</span>
             <span class="dash">-</span>
             <span class="title">Program Manager</span>
-        <div>
+        </div>
         <div class="date">2009 - 2010</div>
         <ul>
             <li>Owned the C# and VB IDE in Visual Studio. Was tasked with designing the future of Visual Studio and laid the groundwork for the next decade of features for the IDE.</li>
@@ -87,7 +87,7 @@ High performance systems, database and compiler implementation, novel interfaces
             <span class="company">UNC Chapel Hill</span>
             <span class="dash">-</span>
             <span class="title">B.A. German</span>
-        <div>
+        </div>
         <div class="date">2005 - 2008</div>
         <ul>
             <li>Entered college as a junior and took classes across dozens of disciplines, from Egyptology to advanced genetics and computer science. Graduated a year early.</li>
