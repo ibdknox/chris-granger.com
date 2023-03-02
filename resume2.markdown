@@ -2,7 +2,64 @@
 layout: default
 title: ibdknox
 meta: Chris Granger's resume
+class: resume2
 ---
+
+<style>
+    h1 {
+        font-size: 20pt;
+        font-weight: bold;
+        max-width: 650px;
+    }
+    hr {
+        height: 3px;
+        background: #333;
+        margin: 5px 0;
+        border: none;
+        outline: none;
+        max-width: 650px;
+    }
+    ul {
+        padding-left: 30px;
+        list-style: none;
+    }
+    ul li {
+        display:flex;
+    }
+    ul > li:before {
+        content: "-";
+        margin-right: 16px;
+    }
+
+    #content .exp {
+        list-style:outside;
+    }
+    #content .exp > li:before {
+        display: none;
+    }
+    #content .exp > li {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    #content .exp > li * {
+        margin: 0;
+    }
+
+    span.company {
+        color: rgb(214,56,100);
+        font-weight: bold;
+    }
+
+    span.title, span.dash {
+        font-style: italic;
+        color: #666;
+    }
+
+    #content .exp .date {
+        font-size: 10pt;
+        color: #666;
+    }
+</style>
 
 # Chris Granger
 ---
@@ -16,7 +73,7 @@ High performance systems, database and compiler implementation, novel interfaces
 - Wrote blog posts that have been read by millions.
 
 ## EXPERIENCE
-<ul>
+<ul class="exp">
     <li>
         <div>
             <span class="company">Jump</span>
@@ -34,7 +91,7 @@ High performance systems, database and compiler implementation, novel interfaces
         <div>
             <span class="company">RelationalAI</span>
             <span class="dash">-</span>
-            <span class="title">VP Produce</span>
+            <span class="title">VP Product</span>
         </div>
         <div class="date">2019 - 2020</div>
         <ul>
@@ -81,7 +138,7 @@ High performance systems, database and compiler implementation, novel interfaces
 </ul>
 
 ## EDUCATION
-<ul>
+<ul class="exp">
     <li>
         <div>
             <span class="company">UNC Chapel Hill</span>
