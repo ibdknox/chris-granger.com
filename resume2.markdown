@@ -26,7 +26,7 @@ class: resume2
         max-width: 650px;
     }
     #content ul {
-        padding-left: 15px;
+        padding-left: 40px;
         list-style: none;
     }
     #content ul li {
@@ -41,6 +41,12 @@ class: resume2
 
     #content ul li + li {
         margin-top: 3px;
+    }
+
+    #content ul li a {
+        color: rgb(214,56,100);
+        text-decoration: underline;
+
     }
 
     #content .exp {
