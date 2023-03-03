@@ -87,7 +87,7 @@ class: resume2
 High performance systems, database and compiler implementation, novel interfaces
 
 ## HIGHLIGHTS
-- Created the [Light Table](https://github.com/LightTable/LightTable) IDE, which influenced tools at [Apple](https://nondot.org/~sabre/), Google, Microsoft, and many others.
+- Created the [Light Table](https://chris-granger.com/lighttable/) IDE, which influenced tools at [Apple](https://nondot.org/~sabre/), Google, Microsoft, and many others.
 - Built [a database](https://github.com/witheve/eve) from scratch that could run games at 60fps and was 100x faster than the closest commercial offering. It powered a [novel programming system](https://witheve.com/).
 - Prototyped [a pipeline](https://www.youtube.com/watch?v=tSk3_ujnu14) for Stripe Sigma that could handle more than the transaction volume of Visa on a laptop.
 - Designed and implemented numerous [natural language](https://twitter.com/ibdknox/status/1328797793138266113) [interfaces](https://www.youtube.com/watch?v=hw-m1bX26uY).
