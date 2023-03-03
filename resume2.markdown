@@ -13,17 +13,20 @@ class: resume2
     }
     #content h2 {
         font-size: 18px;
+        line-height: 1;
+        margin-bottom: 15px;
     }
     #content hr {
         height: 3px;
         background: #333;
-        margin: 5px 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
         border: none;
         outline: none;
         max-width: 650px;
     }
     #content ul {
-        padding-left: 30px;
+        padding-left: 15px;
         list-style: none;
     }
     #content ul li {
@@ -74,11 +77,11 @@ class: resume2
 High performance systems, database and compiler implementation, novel interfaces
 
 ## HIGHLIGHTS
-- Created the Light Table IDE, which influenced tools at Apple, Google, Microsoft, and many others.
-- Built a database from scratch that could run games at 60fps and was 100x faster than the closest commercial offering. It powered a novel programming system.
-- Prototyped a pipeline for Stripe Sigma that could handle more than the transaction volume of Visa on a laptop.
-- Designed and implemented numerous natural language interfaces.
-- Wrote blog posts that have been read by millions.
+- Created the [Light Table](https://github.com/LightTable/LightTable) IDE, which influenced tools at [Apple](https://nondot.org/~sabre/), Google, Microsoft, and many others.
+- Built [a database](https://github.com/witheve/eve) from scratch that could run games at 60fps and was 100x faster than the closest commercial offering. It powered a [novel programming system](https://witheve.com/).
+- Prototyped [a pipeline](https://www.youtube.com/watch?v=tSk3_ujnu14) for Stripe Sigma that could handle more than the transaction volume of Visa on a laptop.
+- Designed and implemented numerous [natural language](https://twitter.com/ibdknox/status/1328797793138266113) [interfaces](https://www.youtube.com/watch?v=hw-m1bX26uY).
+- Wrote blog [posts](https://chris-granger.com/2012/04/12/light-table-a-new-ide-concept/) that have been [read](https://chris-granger.com/2014/03/27/toward-a-better-programming/) by [millions](https://chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/).
 
 ## EXPERIENCE
 <ul class="exp">
