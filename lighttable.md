@@ -5,13 +5,13 @@ meta: Light Table
 class: lighttable
 ---
 
-##Light Table
+## Light Table
 
-<div class="video"><iframe src="http://player.vimeo.com/video/40281991?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+<div class="video">
+<iframe src="https://player.vimeo.com/video/40281991?h=e7573f00dc" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Light Table is an open source IDE that lets you modify running programs and embed anything from websites to games. It provides the real time feedback we need to not only answer questions about our code, but to understand how our programs really work.
-
-#### [Try it out!][dl]
 
 ### Learn more
 
