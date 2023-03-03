@@ -2,42 +2,173 @@
 layout: default
 title: ibdknox
 meta: Chris Granger's resume
+class: resume2
 ---
-<div id="resume">
-<h2>Haec vita mea est.</h2>
-<h3>(This is my life)</h3>
-<dl>
-    <dt>
-        <span>I went to school,</span>
-        2005-2008
-    </dt>
-    <dd>
-        I went to the <a href="http://www.unc.edu" target="_blank">University of North Carolina at Chapel Hill</a> in the fall of 2005 with the intent to be a German and English double major. That, however, changed quite a bit over the next couple years. I took courses in virtually every area; from archaeology and poetry to advanced genetics and computer science. In the end, however, I decided to check out a year early and graduated Magna Cum Laude with a B.A. in German in May 2008. 
-    </dd>
-    <dt>
-        <span>Did some contract work,</span>
-        2005-2008
-    </dt>
-    <dd>
-        While I was at Chapel Hill, I worked as a contractor doing web development for a number of companies. I worked for <a href="http://www.trainone.com" target="_blank">Train One</a>, the technical component of the <a href="http://gitomer.com" target="_blank">BuyGitomer</a> empire, as an intern turned contractor on an internal <a href="http://en.wikipedia.org/wiki/Customer_relationship_management" target="_blank">CRM</a>. The next summer, I had the pleasure of working at <a href="http://modevisual.com" target="_blank">MODE Visual</a>, again as an intern turned contractor, but this time on some sites you might've heard of: <a href="http://newbalance.com" target="_blank">newbalance.com</a>, <a href="http://puma.com" target="_blank">puma.com</a>, and <a href="http://diderot.com" target="_blank">diderot.com</a>. While working at MODE, I wrote my first web framework in PHP and thus began my <a href="/projects" target="_blank">obsession</a> with web development. Thereafter, I met the folks at <a href="http://skookum.com" target="_blank">Skookum</a> and worked as a contractor for a few months before they decided to hire me full time.
-    </dd>
-    <dt>
-        <span>Provided some technical leadership,</span>
-        2008-2009
-    </dt>
-    <dd>
-        At Skookum I did a bit of everything; from establishing our <a href="http://git-scm.com/" target="_blank">version control</a> system to quoting and <a href="http://en.wikipedia.org/wiki/Design_pattern_(computer_science)" target="_blank">architecting</a> sites that came to us. While I designed the entire backend for <a href="http://diderot.com" target="_blank">diderot.com</a> at MODE (a project with over <a href="http://en.wikipedia.org/wiki/Source_lines_of_code" target="_blank">100,000+ LoC</a>), some of the sites we developed at Skookum pushed the limits of web technology and a number of them used the <a href="/projects" target="_blank">frameworks</a> I had developed. Clean, for example, was used to build <a href="http://lordpeacock.com" target="_blank">Lord Peacock</a> as well as an insane internal tool that we were calling the Resource Management System. While I was with Skookum, I led a number of projects working with 2-4 other developers at a time and it was here that I really started to cultivate my desire to be a <a href="http://en.wikipedia.org/wiki/Lead_programmer" target="_blank">technical leader</a>. In the end, however, I wanted to have a broader depth of experiences and I needed a place to really grow that <a href="http://www.amazon.com/Why-Should-Anyone-Led-You/dp/1578519713" target="_blank">ability to lead</a>. As such, I moved to a little town outside of Seattle: Redmond, WA. 
-    </dd>
-    <dt>
-        <span>And then flew to the west coast.</span>
-        2009-2010
-    </dt>
-    <dd>
-        Redmond, WA happens to be where <a href="http://microsoft.com" target="_blank">Microsoft</a> is located, and they just so happened to have hired me. I left all of my <a href="http://php.net" target="_blank">PHP</a>, <a href="http://python.org" target="_blank">Python</a>, and <a href="http://ruby-lang.org" target="_blank">Ruby</a> code behind and traded it for <a href="http://www.amazon.com/Inside-C-Second-Tom-Archer/dp/0735616485" target="_blank">C#</a> and Visual Studio. I worked at Microsoft as a <a href="http://www.amazon.com/Making-Things-Happen-Mastering-Management/dp/0596517718" target="_blank">Program Manager</a>, which meant I do all of the stuff that doesn't happen to get done by others. Given my strong technical background, my placement on <a href="http://visualstudio.com" target="_blank">Visual Studio</a> seemed fitting and I found myself frequently still working with code. Being a PM, however, also offered me a chance to really dive into some of the other things I have a serious passion for; <a href="http://www.ideo.com" target="_blank">design</a>, <a href="http://www.amazon.com/Presentation-Zen-Simple-Design-Delivery/dp/0321525655" target="_blank">public speaking</a>, <a href="http://www.amazon.com/Myths-Innovation-Scott-Berkun/dp/0596527055" target="_blank">innovation</a>, and connecting with <a href="http://www.gitomer.com/Customer-Loyalty-Concepts-pluCLCFLIPBOOK.html" target="_blank">customers</a>. While I was at Microsoft, I worked on a demo for an <a href="http://blog.seattlepi.com/microsoft/archives/178261.asp" target="_blank">audience of 40,000+</a>, helped partners (read: <a href="http://www.intel.com" target="_blank">Intel</a>, <a href="http://www.nvidia.com" target="_blank">Nvidia</a>, etc) integrate with VS, designed <a href="http://blogs.msdn.com/visualstudio/archive/2010/01/07/tips-and-tricks-zooming-in-the-vs-2010-editor.aspx" target="_blank">features</a> in VS2010, and represented the new wave of <a href="http://mef.codeplex.com/" target="_blank">MEF extensibility</a> in the IDE. About a year into it, I even moved to own the entire VB and C# IDE experience and worked on the future of what it means to be a development tool. In the end, however, the allure of the web was just too much.</dd>
-    <dt>
-        <span>The next big thing?</span>
-        2010-Current
-    </dt>
-    <dd>After about two years, I left Microsoft to start a company with my good friend <a href="http://nathanhammond.com">Nathan Hammond</a>. Nathan and I have known each other since high school, we both worked at Skookum and MODE together, and had always wanted to strike out on our own. Together, we built a <a href="http://www.typewire.io">live-blogging service</a> called Typewire. It was an insane <a href="http://radian.org/notebook/wp-content/uploads/2008/04/20080404-img_2281.jpg">roller coaster ride</a> and undoubtedly one of the best learning experiences I've had, but in the end, it didn't work out. So thereafter, I joined up with the guys at <a href="https://www.readyforzero.com">ReadyForZero</a> to help combat the growing debt epidemic. As their first engineering hire, I helped rewrite an old Django site into a new one built entirely on <a href="http://webnoir.org">Noir</a> and <a href="http://clojure.org">Clojure</a>. But these days I'm back in the ether of starting my own company - where it'll lead, no one knows.</dd>
-</dl>
-</div>
+
+<style>
+    #content h1 {
+        font-size: 20pt;
+        font-weight: bold;
+        max-width: 650px;
+    }
+    #content h2 {
+        font-size: 18px;
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+    #content hr {
+        height: 3px;
+        background: #333;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: none;
+        outline: none;
+        max-width: 650px;
+    }
+    #content ul {
+        padding-left: 40px;
+        list-style: none;
+    }
+    #content ul li {
+        position:relative;
+    }
+    #content ul > li:before {
+        content: "-";
+        margin-right: 16px;
+        position:absolute;
+        left: -15px;
+    }
+
+    #content ul li + li {
+        margin-top: 3px;
+    }
+
+    #content ul li a {
+        color: rgb(214,56,100);
+        text-decoration: underline;
+
+    }
+
+    #content .exp {
+        list-style:none;
+        padding: 0;
+    }
+    #content .exp > li:before {
+        display: none;
+    }
+    #content .exp > li {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    #content .exp > li * {
+        margin: 0;
+    }
+
+    span.company {
+        color: rgb(214,56,100);
+        font-weight: bold;
+    }
+
+    span.title, span.dash {
+        font-style: italic;
+        color: #666;
+    }
+
+    #content .exp .date {
+        font-size: 10pt;
+        color: #666;
+        text-align: left;
+        padding: 0;
+    }
+</style>
+
+# Chris Granger
+---
+High performance systems, database and compiler implementation, novel interfaces
+
+## HIGHLIGHTS
+- Created the [Light Table](https://github.com/LightTable/LightTable) IDE, which influenced tools at [Apple](https://nondot.org/~sabre/), Google, Microsoft, and many others.
+- Built [a database](https://github.com/witheve/eve) from scratch that could run games at 60fps and was 100x faster than the closest commercial offering. It powered a [novel programming system](https://witheve.com/).
+- Prototyped [a pipeline](https://www.youtube.com/watch?v=tSk3_ujnu14) for Stripe Sigma that could handle more than the transaction volume of Visa on a laptop.
+- Designed and implemented numerous [natural language](https://twitter.com/ibdknox/status/1328797793138266113) [interfaces](https://www.youtube.com/watch?v=hw-m1bX26uY).
+- Wrote blog [posts](https://chris-granger.com/2012/04/12/light-table-a-new-ide-concept/) that have been [read](https://chris-granger.com/2014/03/27/toward-a-better-programming/) by [millions](https://chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/).
+
+## EXPERIENCE
+<ul class="exp">
+    <li>
+        <div>
+            <span class="company">Jump</span>
+            <span class="dash">-</span>
+            <span class="title">Principal</span>
+        </div>
+        <div class="date">2020 - PRESENT</div>
+        <ul>
+            <li>Independent research and consulting in distributed systems, CRDTs, programming interfaces, NLP, and reasoning.</li>
+            <li>Built a product that translates natural language to relational queries based on ontological reasoning that executes in microseconds on commodity hardware.</li>
+        </ul>
+    </li>
+
+    <li>
+        <div>
+            <span class="company">RelationalAI</span>
+            <span class="dash">-</span>
+            <span class="title">VP Product</span>
+        </div>
+        <div class="date">2019 - 2020</div>
+        <ul>
+            <li>Defined a position and vision for the company as an AI embedded database platform and led the design of novel tools to support it.</li>
+        </ul>
+    </li>
+
+    <li>
+        <div>
+            <span class="company">Looker</span>
+            <span class="dash">-</span>
+            <span class="title">Principal Engineer</span>
+        </div>
+        <div class="date">2018 - 2019</div>
+        <ul>
+            <li>Worked with a small team to research, conceptualize, design, and prototype the future of Looker.</li>
+        </ul>
+    </li>
+
+    <li>
+        <div>
+            <span class="company">Light Table / Eve</span>
+            <span class="dash">-</span>
+            <span class="title">Cofounder and CEO (YCS12, a16z, Sam Altman)</span>
+        </div>
+        <div class="date">2011 - 2018</div>
+        <ul>
+            <li>Built an IDE from scratch that was the most successful software kickstarter of the time and became a stated influence on the design of tools at Apple, Google, Microsoft, and many others. </li>
+            <li>Implemented 24 compilers, 34 environments/IDEs, 25 relational engines, 16 storage engines, 9 interpreters, dozens of parsers, and numerous standard libraries based on state of the art research.</li>
+        </ul>
+    </li>
+
+    <li>
+        <div>
+            <span class="company">Microsoft</span>
+            <span class="dash">-</span>
+            <span class="title">Program Manager</span>
+        </div>
+        <div class="date">2009 - 2010</div>
+        <ul>
+            <li>Owned the C# and VB IDE in Visual Studio. Was tasked with designing the future of Visual Studio and laid the groundwork for the next decade of features for the IDE.</li>
+        </ul>
+    </li>
+</ul>
+
+## EDUCATION
+<ul class="exp">
+    <li>
+        <div>
+            <span class="company">UNC Chapel Hill</span>
+            <span class="dash">-</span>
+            <span class="title">B.A. German</span>
+        </div>
+        <div class="date">2005 - 2008</div>
+        <ul>
+            <li>Entered college as a junior and took classes across dozens of disciplines, from Egyptology to advanced genetics and computer science. Graduated a year early.</li>
+        </ul>
+    </li>
+</ul>
