@@ -6,12 +6,15 @@ class: resume2
 ---
 
 <style>
-    h1 {
+    #content h1 {
         font-size: 20pt;
         font-weight: bold;
         max-width: 650px;
     }
-    hr {
+    #content h2 {
+        font-size: 18px;
+    }
+    #content hr {
         height: 3px;
         background: #333;
         margin: 5px 0;
@@ -19,27 +22,32 @@ class: resume2
         outline: none;
         max-width: 650px;
     }
-    ul {
+    #content ul {
         padding-left: 30px;
         list-style: none;
     }
-    ul li {
+    #content ul li {
         display:flex;
     }
-    ul > li:before {
+    #content ul > li:before {
         content: "-";
         margin-right: 16px;
     }
 
+    #content ul li + li {
+        margin-top: 3px;
+    }
+
     #content .exp {
         list-style:outside;
+        padding: 0;
     }
     #content .exp > li:before {
         display: none;
     }
     #content .exp > li {
         flex-direction: column;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
     #content .exp > li * {
         margin: 0;
