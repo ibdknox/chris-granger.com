@@ -30,11 +30,13 @@ class: resume2
         list-style: none;
     }
     #content ul li {
-        display:flex;
+        position:relative;
     }
     #content ul > li:before {
         content: "-";
         margin-right: 16px;
+        position:absolute;
+        left: -15px;
     }
 
     #content ul li + li {
@@ -42,7 +44,7 @@ class: resume2
     }
 
     #content .exp {
-        list-style:outside;
+        list-style:none;
         padding: 0;
     }
     #content .exp > li:before {
@@ -69,6 +71,8 @@ class: resume2
     #content .exp .date {
         font-size: 10pt;
         color: #666;
+        text-align: left;
+        padding: 0;
     }
 </style>
 
